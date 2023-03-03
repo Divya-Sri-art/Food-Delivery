@@ -1,0 +1,148 @@
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    padding: 3.5rem;
+    gap: 1rem;
+}
+.text2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+.container1 h5{
+    font-size: 1em;
+    font-weight: 100;
+    
+}
+.container1 p {
+    font-size: .9em;
+}
+.container1 h5:hover {
+    color: #007aff;
+}
+.container1 p:hover {
+    color: rgb(0, 204, 153);
+}
+
+
+.container1 div {
+    display: grid;
+    gap: 1rem;
+}
+.container1 img {
+    width: 100%;
+    height: 15rem;
+}
+ .alt h2 {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    color: #0F2137;
+    margin-top: 2rem;
+}
+.btn1 button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding:  1rem 1rem;
+    border-radius: 15rem;
+    background-color: #00CC99;
+    border: none;
+    color: #FFFAF0;
+}
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2 {
+    display: flex;
+    justify-content: center;
+   font-size: 1.5rem;
+   color: #0F2137;
+  line-height: 4rem;
+}
+.btn2{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+}
+.btn2 button:hover {
+    color: white;
+    background-color: #00CC99;
+}
+.btn2 button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(233, 243, 252);
+}
+
+
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.container3 h4 {
+    font-size: 1.2em;
+    color: #0F2137;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+.container3 p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+ .container3 h5 {
+  
+   color: #18a4c7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1em;
+}
+
+
+
+.error {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    
+}
+.error h2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.error h4 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+.error img {
+    width: 100%;
+}
+
+
+
+
+

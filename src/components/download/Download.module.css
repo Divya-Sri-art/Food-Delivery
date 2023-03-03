@@ -1,0 +1,21 @@
+.src {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.text h2 {
+    line-height: 1.5em;
+    font-size: 1.7em;
+    color: #0F2137;
+}
+.text p {
+    font-size: 1.1em;
+    line-height: 1.9em;
+    color: #0F2137;
+}
